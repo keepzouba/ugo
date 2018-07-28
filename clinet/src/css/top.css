@@ -1,0 +1,565 @@
+/*公共样式部分*/
+body{
+    margin: 0px;
+    width: 1440px;
+    font-family: "\5FAE\8F6F\96C5\9ED1",tahoma,arial,"\u5b8b\u4f53",sans-serif,Microsoft YaHei !important;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    font-size: 12px;
+}
+html{
+    width: 1440px;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+em,i {
+    font-style: normal;
+}
+ul,dl{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.l{
+    float: left;
+}
+.r{
+    float: right;
+}
+.rel{
+    position: relative;
+}
+
+/*top_nav部分*/
+
+#top_nav{
+    width: 100%;
+    height: 28px;
+    background-color: #f6f6f6;
+    font-family: "\5FAE\8F6F\96C5\9ED1",tahoma,arial,"\u5b8b\u4f53",sans-serif;
+}
+#top_nav_main{
+    height: 100%;
+    width: 1000px;
+    margin: 0 auto;
+}
+.top_nav_main_notic{
+    float: left;
+    font-size: 12px;
+    width: 250px;
+    overflow: hidden;
+    height: 28px;
+    line-height: 28px;
+    position: relative;
+}
+.top_nav_main_notic>span{
+    background: url("http://www.ugoshop.com/themes/ugo/images/201603/icons.png") no-repeat -98px -196px;
+    float: left;
+    padding-left: 18px;
+    color: #666;
+    font-size: 12px;
+}
+
+.top_nav_main_notic>ul {
+    float: left;
+    height: 28px;
+    position: absolute;
+    left: 57px;
+}
+.top_nav_main_notic>ul li {
+    width: 190px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #666;
+    height: 28px;
+    float: left;
+}
+.top_nav_main_tool{
+    float: right;
+    line-height: 28px;
+    position: relative;
+    font-size: 12px;
+}
+.top_nav_main_tool>li {
+    float: left;
+    color: #666;
+}
+.top_nav_main_tool>li>span{
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-flex;
+}
+.top_nav_main_tool>li>span>a{
+    color: #666;
+}
+.phone_in{
+    position: relative;
+    z-index: 999;
+}
+.phone_in>span>a>i{
+    float: left;
+    display: inline-block;
+    width: 9px;
+    height: 26px;
+    margin-right: 5px;
+}
+.phone_in>span>a>i>img{
+    margin-top: 8px;
+}
+.phone_in>span>a{
+    color: #666;
+    padding-left: 12px;
+    display: block;
+}
+.down_app {
+    display: none;
+    background-color: #fff;
+    padding: 10px;
+    position: absolute;
+    top: 26px;
+    left: -6px;
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    z-index: 22;
+}
+.down_app i {
+    display: block;
+    position: absolute;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/icon.png) no-repeat 0 -145px;
+    width: 18px;
+    height: 8px;
+    left: 45px;
+    top: -7px;
+}
+.app_erm{
+    width: 90px;
+    height: auto;
+    text-align: center;
+}
+.app_erm>p>a{
+    color: #f70800;
+    font-size: 14px;
+}
+.phone_in:hover .down_app{
+    display: block;
+}
+
+
+
+
+/* header 部分 */
+.header_logo{
+    padding: 20px 0 0;
+    font-family: "\5FAE\8F6F\96C5\9ED1",tahoma,arial,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    margin-bottom: 3px;
+}
+.webz {
+    margin: 0 auto;
+    width: 1000px;
+}
+.clearfix {
+    display: block;
+}
+.header_logo_box1{
+    width: 206px;
+    margin-top: 6px;
+    margin-right: 82px;
+    float: left;
+}
+.header_logo_box1>h2{
+    display: block;
+    width: 206px;
+    height: 46px;
+    margin: 0;
+}
+.header_logo_box1>h2>a{
+    display: block;
+    color: #222;
+    outline: none;
+}
+.header_logo_box1>h2>a>img{
+    margin-top: 0;
+    width: 206px;
+    height: 46px;
+}
+.header_logo_box1>p{
+    height: 30px;
+}
+.header_logo_search{
+    width: 420px;
+    margin-top: 6px;
+    text-align: left;
+    float: left;
+}
+.sch{
+    height: 36px;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/searchbar.jpg) no-repeat 0 0;
+    width: 100%;
+    position: relative;
+}
+.sch_in{
+    width: 326px;
+    height: 32px;
+    line-height: 32px;
+    border: 0;
+    padding: 2px;
+    padding-left: 15px;
+    background: none;
+    color: #999;
+}
+.sch_btn{
+    height: 36px;
+    width: 76px;
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.header_logo_mycart{
+    margin-top: 8px;
+    position: relative;
+    z-index: 889;
+    height: 32px;
+    margin-left: 152px;
+}
+.cart_bag{
+    color: #222;
+    width: 138px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.w-bj{
+    width: 138px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 23;
+    text-align: center;
+}
+.w-bj>a{
+    font-size: 12px;
+}
+.icar{
+    display: block;
+    position: absolute;
+    left: 14px;
+    top: 5px;
+    width: 19px;
+    height: 18px;
+}
+.icar>img{
+    width: 19px;
+    height: 18px;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.ijt{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    width: 11px;
+    height: 7px;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/icon.png) no-repeat -189px -59px;
+}
+.cartnum{
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    right: 22px;
+    top: -4px;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/icon.png) no-repeat 0 -100px;
+}
+.w-bj a:hover {
+    color: #f70800;
+}
+.w-bj:hover .ijt{
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/icon.png) no-repeat -189px 0px;
+}
+.cart_info{
+    border: 1px solid #ddd;
+    width: 288px;
+    height: auto;
+    position: absolute;
+    top: 29px;
+    left: -150px;
+    z-index: 22;
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    display: none;
+}
+.header_logo_mycart:hover .cart_info{
+    display: block;
+}
+.cartlist{
+    padding: 10px 0 0;
+    background-color: #fff;
+    display: none;
+}
+.cartlist_have{
+    padding: 10px 0 0;
+    background-color: #fff;
+    display: none;
+}
+.cartul {
+    margin-left: 10px;
+    height: 213px;
+    overflow-y: auto;
+}
+.cartul li {
+    border-bottom: 1px solid #eaeaea;
+    height: 70px;
+    position: relative;
+}
+.cartul li a {
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    height: 50px;
+}
+.cartul .cartimg {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.cartul .cartlink {
+    width: 96px;
+    float: left;
+    color: #222;
+    margin-right: 24px;
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.priczj {
+    background-color: #f0f0f0;
+    color: #222;
+    font-size: 14px;
+    height: 56px;
+    line-height: 56px;
+    padding-left: 12px;
+    padding-right: 128px;
+    overflow: hidden;
+    position: relative;
+    display: none;
+}
+.priczj .canum {
+    color: #f70800;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.priczj .cartotal {
+    color: #f70800;
+    padding-left: 8px;
+}
+.priczj .cartotal em {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a.gosum {
+    width: 104px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    background-color: #ff504a;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.cartul .pricemx {
+    padding-top: 6px;
+}
+.cartul .pricemx span {
+    color: #f70800;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.none_cart{
+    height: 74px;
+    text-align: center;
+    line-height: 74px;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+/*main_nav部分*/
+#main_nav{
+    font-family: "\5FAE\8F6F\96C5\9ED1",tahoma,arial,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    background-color: #f70800;
+    height: 40px;
+}
+.main_nav_list{
+    padding-right: 134px;
+    position: relative;
+    height: 40px;
+    z-index: 888;
+}
+.main_nav_list>li{
+    display: block;
+    float: left;
+    zoom: 1;
+}
+.channel{
+    height: 40px;
+}
+.main_nav_list>li>a.a_tvicon{
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/icon-tv.png) no-repeat 20px center;
+    padding-left: 45px;
+}
+.main_nav_list>li>a{
+    display: block;
+    padding: 0 20px;
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+}
+.hover{
+    background-color: #bc0600;
+}
+.main_nav_list>li>a:hover{
+    background-color: #e20700;
+}
+.main_nav_list>li .navcat{
+    float: right;
+}
+.main_nav_list li.navcat{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.alnav{
+    position: relative;
+    width: 134px;
+    z-index: 999;
+}
+.alnav dt.sysp{
+    height: 40px;
+    width: 134px;
+    text-align: left;
+}
+.alnav dt.sysp p{
+    width: 134px;
+    position: absolute;
+    text-align: left;
+    top: 0;
+    overflow: hidden;
+    height: 40px;
+    line-height: 999px;
+    overflow: hidden;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/searchbar.jpg) no-repeat 0 -65px;
+}
+.alnav dt.sysp p:hover{
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/searchbar.jpg) no-repeat 0 -133px;
+}
+.alnav dd.zsfl{
+    width: 1000px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    height: auto;
+    display: none;
+}
+.alnav dd.zsfl div.zsfllist{
+    height: auto;
+    width: 998px;
+    overflow: hidden;
+    padding-top: 1px;
+    border: 1px solid #f70800;
+    background-color: #fff;
+}
+.alnav dd.zsfl div.zsfllist div.zsfllist_top{
+    overflow: hidden;
+}
+.kinds{
+    width: 135px;
+    padding: 0 15px;
+    float: left;
+    border-right: 1px solid #ededed;
+    height: 100%;
+    padding-bottom: 32767px;
+    margin-bottom: -32767px;
+}
+.kindstop{
+    height:42px;
+    padding-left:48px;
+    position:relative;
+    line-height:46px;
+    border-bottom:1px dotted #d9d9d9;
+    margin-top:6px;
+    padding-bottom:6px;
+}
+.kindsbot{
+    padding-top: 5px;
+    padding-bottom: 17px;
+    height: auto;
+}
+.zsfllist .kindstop .stat{
+    position: absolute;
+    width: 30px;
+    height: 42px;
+    left: 15px;
+    top: 0;
+}
+.zsfllist .kindstop a{
+    font-family: "\5FAE\8F6F\96C5\9ED1",tahoma,arial,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    font-size: 14px;
+    font-weight: 700;
+}
+.kindsbot a{
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    font-family: "\5FAE\8F6F\96C5\9ED1",tahoma,arial,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    color: #555;
+    font-size: 12px;
+}
+.kinds2{
+    border-right: 0px;
+}
+.zsfllist .kindstop a:hover{
+    color: #ff4074;
+}
+.navcat dl.alnav:hover dd.zsfl{
+    display: block;
+}

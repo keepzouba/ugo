@@ -1,0 +1,231 @@
+/*右侧导航栏部分*/
+.sidebar {
+    z-index: 999;
+    width: 36px;
+    position: fixed;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+.sidebar ul.bar-top {
+    position: absolute;
+    top: 50%;
+    margin-top: -72px;
+    right: 0;
+    width: 36px;
+    height: 144px;
+}
+.sidebar ul.bar-bot {
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    width: 36px;
+    height: 108px;
+}
+.sidebar li {
+    width: 36px;
+    height: 36px;
+    clear: both;
+    z-index: 2;
+    position: absolute;
+}
+.sidebar li.fly-user {
+    right: 0;
+    top: 0;
+}
+.a-user-c {
+    background-position: 0 0;
+}
+.a-sidebar {
+    display: block;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/xfbj.png) no-repeat;
+    z-index: 2;
+    position: relative;
+}
+.sidebarcom-hover {
+    position: absolute;
+    right: -325px;
+    top: 0;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/centerbj.jpg) no-repeat;
+    width: 257px;
+    height: 228px;
+    padding: 2px;
+    z-index: 1;
+}
+.sidebarcom-hover a.closex {
+    display: block;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    right: 12px;
+    top: 20px;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/xfbj.png) no-repeat -69px -357px;
+    cursor: pointer;
+}
+.slide-login {
+    margin-top: 30px;
+}
+.slide-pic {
+    width: 74px;
+    height: 74px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+}
+.slide-login-btn {
+    text-align: center;
+}
+.slide-login-btn a {
+    color: #f70800;
+    padding: 6px;
+}
+.slide-login-go {
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    width: 207px;
+    background-color: #f8f8f8;
+    padding: 16px 25px;
+}
+.slide-login-go a {
+    display: inline-block;
+    width: 88px;
+    height: 28px;
+    color: #222;
+    text-align: center;
+    line-height: 28px;
+    color: #222;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.a-mydd {
+    margin-right: 18px;
+}
+.sidebar li.fly-cart {
+    right: 0;
+    top: 36px;
+}
+.sidebar li.fly-care {
+    right: 0;
+    top: 72px;
+}
+.sidebar li.fly-ser {
+    right: 0;
+    top: 108px;
+}
+.sidebar li .cart-c {
+    width: 36px;
+    height: 36px;
+}
+.a-cart-c {
+    background-position: 0 -46px;
+}
+.cart-num {
+    display: block;
+    z-index: 3;
+    position: absolute;
+    right: 0;
+    top: -2px;
+    width: 24px;
+    height: 14px;
+    line-height: 11px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/xfbj.png) no-repeat 0 -342px;
+}
+.slide-hui {
+    width: 90px;
+    height: 36px;
+    line-height: 36px;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/xfbj.png) no-repeat 0 -412px;
+    right: -90px;
+    top: 0;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+}
+.a-care-c {
+    background-position: 0 -92px;
+}
+.slide-hui a {
+    color: #fff;
+}
+.sidebar li.fly-code {
+    right: 0;
+    top: 0;
+}
+.sidebar li.fly-ask {
+    right: 0;
+    top: 36px;
+}
+.sidebar li.fly-return {
+    right: 0;
+    top: 72px;
+}
+.a-code-c {
+    background-position: 0 -184px;
+}
+.code-pic {
+    position: absolute;
+    right: -135px;
+    top: -73px;
+    width: 132px;
+    height: 182px;
+    z-index: 1;
+}
+.a-ask-c {
+    background-position: 0 -230px;
+}
+.a-return-c {
+    background-position: 0 -276px;
+}
+.fly-user:hover .sidebarcom-hover{
+    right: 36px;
+    cursor: pointer;
+    z-index: 1;
+}
+.fly-cart:hover .slide-hui{
+    right: 36px;
+    cursor: pointer;
+    z-index: 1;
+}
+.fly-care:hover .slide-hui{
+    right: 36px;
+    cursor: pointer;
+    z-index: 1;
+}
+.fly-ser:hover .slide-hui{
+    right: 36px;
+    cursor: pointer;
+    z-index: 1;
+}
+.fly-code:hover .code-pic{
+    right: 36px;
+    cursor: pointer;
+    z-index: 1;
+}
+.fly-ask:hover .slide-hui{
+    right: 36px;
+    cursor: pointer;
+    z-index: 1;
+}
+.fly-return:hover .slide-hui{
+    right: 36px;
+    cursor: pointer;
+    z-index: 1;
+}
+.sidebar-out {
+    height: 100%;
+    border-right: 4px solid #222;
+    position: fixed;
+    right: 0;
+    top: 0;
+    _position: absolute;
+    _bottom: auto;
+    _top: expression(eval(document.documentElement.scrollTop));
+    _height: expression(document.documentElement.clientHeight+"px");
+}

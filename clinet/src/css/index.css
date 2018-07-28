@@ -1,0 +1,1505 @@
+/*公共样式部分*/
+body{
+    margin: 0px;
+    width: 1440px;
+    font-family: "\5FAE\8F6F\96C5\9ED1",tahoma,arial,"\u5b8b\u4f53",sans-serif,Microsoft YaHei !important;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    font-size: 12px;
+}
+html{
+    width: 1440px;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+em,i {
+    font-style: normal;
+}
+ul,dl{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.l{
+    float: left;
+}
+.r{
+    float: right;
+}
+.rel{
+    position: relative;
+}
+
+/*top_nav部分*/
+
+#top_nav{
+    width: 100%;
+    height: 28px;
+    background-color: #f6f6f6;
+    font-family: "\5FAE\8F6F\96C5\9ED1",tahoma,arial,"\u5b8b\u4f53",sans-serif;
+}
+#top_nav_main{
+    height: 100%;
+    width: 1000px;
+    margin: 0 auto;
+}
+.top_nav_main_notic{
+    float: left;
+    font-size: 12px;
+    width: 250px;
+    overflow: hidden;
+    height: 28px;
+    line-height: 28px;
+    position: relative;
+}
+.top_nav_main_notic>span{
+    background: url("http://www.ugoshop.com/themes/ugo/images/201603/icons.png") no-repeat -98px -196px;
+    float: left;
+    padding-left: 18px;
+    color: #666;
+    font-size: 12px;
+}
+
+.top_nav_main_notic>ul {
+    float: left;
+    height: 28px;
+    position: absolute;
+    left: 57px;
+}
+.top_nav_main_notic>ul li {
+    width: 190px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #666;
+    height: 28px;
+    float: left;
+}
+.top_nav_main_tool{
+    float: right;
+    line-height: 28px;
+    position: relative;
+    font-size: 12px;
+}
+.top_nav_main_tool>li {
+    float: left;
+    color: #666;
+}
+.top_nav_main_tool>li>span{
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-flex;
+}
+.top_nav_main_tool>li>span>a{
+    color: #666;
+}
+.phone_in{
+    position: relative;
+    z-index: 999;
+}
+.phone_in>span>a>i{
+    float: left;
+    display: inline-block;
+    width: 9px;
+    height: 26px;
+    margin-right: 5px;
+}
+.phone_in>span>a>i>img{
+    margin-top: 8px;
+}
+.phone_in>span>a{
+    color: #666;
+    padding-left: 12px;
+    display: block;
+}
+.down_app {
+    display: none;
+    background-color: #fff;
+    padding: 10px;
+    position: absolute;
+    top: 26px;
+    left: -6px;
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    z-index: 22;
+}
+.down_app i {
+    display: block;
+    position: absolute;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/icon.png) no-repeat 0 -145px;
+    width: 18px;
+    height: 8px;
+    left: 45px;
+    top: -7px;
+}
+.app_erm{
+    width: 90px;
+    height: auto;
+    text-align: center;
+}
+.app_erm>p>a{
+    color: #f70800;
+    font-size: 14px;
+}
+.phone_in:hover .down_app{
+    display: block;
+}
+
+
+
+
+/* header 部分 */
+.header_logo{
+    padding: 20px 0 0;
+    font-family: "\5FAE\8F6F\96C5\9ED1",tahoma,arial,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    margin-bottom: 3px;
+}
+.webz {
+    margin: 0 auto;
+    width: 1000px;
+}
+.clearfix {
+    display: block;
+}
+.header_logo_box1{
+    width: 206px;
+    margin-top: 6px;
+    margin-right: 82px;
+    float: left;
+}
+.header_logo_box1>h2{
+    display: block;
+    width: 206px;
+    height: 46px;
+    margin: 0;
+}
+.header_logo_box1>h2>a{
+    display: block;
+    color: #222;
+    outline: none;
+}
+.header_logo_box1>h2>a>img{
+    margin-top: 0;
+    width: 206px;
+    height: 46px;
+}
+.header_logo_box1>p{
+    height: 30px;
+}
+.header_logo_search{
+    width: 420px;
+    margin-top: 6px;
+    text-align: left;
+    float: left;
+}
+.sch{
+    height: 36px;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/searchbar.jpg) no-repeat 0 0;
+    width: 100%;
+    position: relative;
+}
+.sch_in{
+    width: 326px;
+    height: 32px;
+    line-height: 32px;
+    border: 0;
+    padding: 2px;
+    padding-left: 15px;
+    background: none;
+    color: #999;
+}
+.sch_btn{
+    height: 36px;
+    width: 76px;
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.header_logo_mycart{
+    margin-top: 8px;
+    position: relative;
+    z-index: 889;
+    height: 32px;
+    margin-left: 152px;
+}
+.cart_bag{
+    color: #222;
+    width: 138px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.w-bj{
+    width: 138px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 23;
+    text-align: center;
+}
+.w-bj>a{
+    font-size: 12px;
+}
+.icar{
+    display: block;
+    position: absolute;
+    left: 14px;
+    top: 5px;
+    width: 19px;
+    height: 18px;
+}
+.icar>img{
+    width: 19px;
+    height: 18px;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.ijt{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    width: 11px;
+    height: 7px;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/icon.png) no-repeat -189px -59px;
+}
+.cartnum{
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    right: 22px;
+    top: -4px;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/icon.png) no-repeat 0 -100px;
+}
+.w-bj a:hover {
+    color: #f70800;
+}
+.w-bj:hover .ijt{
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/icon.png) no-repeat -189px 0px;
+}
+.cart_info{
+    border: 1px solid #ddd;
+    width: 288px;
+    height: auto;
+    position: absolute;
+    top: 29px;
+    left: -150px;
+    z-index: 22;
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    display: none;
+}
+.header_logo_mycart:hover .cart_info{
+    display: block;
+}
+.cartlist{
+    padding: 10px 0 0;
+    background-color: #fff;
+}
+.none_cart{
+    height: 74px;
+    text-align: center;
+    line-height: 74px;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+/*main_nav部分*/
+#main_nav{
+    font-family: "\5FAE\8F6F\96C5\9ED1",tahoma,arial,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    background-color: #f70800;
+    height: 40px;
+}
+.main_nav_list{
+    padding-right: 134px;
+    position: relative;
+    height: 40px;
+    z-index: 888;
+}
+.main_nav_list>li{
+    display: block;
+    float: left;
+    zoom: 1;
+}
+.channel{
+    height: 40px;
+}
+.main_nav_list>li>a.a_tvicon{
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/icon-tv.png) no-repeat 20px center;
+    padding-left: 45px;
+}
+.main_nav_list>li>a{
+    display: block;
+    padding: 0 20px;
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+}
+.hover{
+    background-color: #bc0600;
+}
+.main_nav_list>li>a:hover{
+    background-color: #e20700;
+}
+.main_nav_list>li .navcat{
+    float: right;
+}
+.main_nav_list li.navcat{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.alnav{
+    position: relative;
+    width: 134px;
+    z-index: 999;
+}
+.alnav dt.sysp{
+    height: 40px;
+    width: 134px;
+    text-align: left;
+}
+.alnav dt.sysp p{
+    width: 134px;
+    position: absolute;
+    text-align: left;
+    top: 0;
+    overflow: hidden;
+    height: 40px;
+    line-height: 999px;
+    overflow: hidden;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/searchbar.jpg) no-repeat 0 -65px;
+}
+.alnav dt.sysp p:hover{
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/searchbar.jpg) no-repeat 0 -133px;
+}
+.alnav dd.zsfl{
+    width: 1000px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    height: auto;
+    display: none;
+}
+.alnav dd.zsfl div.zsfllist{
+    height: auto;
+    width: 998px;
+    overflow: hidden;
+    padding-top: 1px;
+    border: 1px solid #f70800;
+    background-color: #fff;
+}
+.alnav dd.zsfl div.zsfllist div.zsfllist_top{
+    overflow: hidden;
+}
+.kinds{
+    width: 135px;
+    padding: 0 15px;
+    float: left;
+    border-right: 1px solid #ededed;
+    height: 100%;
+    padding-bottom: 32767px;
+    margin-bottom: -32767px;
+}
+.kindstop{
+    height:42px;
+    padding-left:48px;
+    position:relative;
+    line-height:46px;
+    border-bottom:1px dotted #d9d9d9;
+    margin-top:6px;
+    padding-bottom:6px;
+}
+.kindsbot{
+    padding-top: 5px;
+    padding-bottom: 17px;
+    height: auto;
+}
+.zsfllist .kindstop .stat{
+    position: absolute;
+    width: 30px;
+    height: 42px;
+    left: 15px;
+    top: 0;
+}
+.zsfllist .kindstop a{
+    font-family: "\5FAE\8F6F\96C5\9ED1",tahoma,arial,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    font-size: 14px;
+    font-weight: 700;
+}
+.kindsbot a{
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    font-family: "\5FAE\8F6F\96C5\9ED1",tahoma,arial,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    color: #555;
+    font-size: 12px;
+}
+.kinds2{
+    border-right: 0px;
+}
+.zsfllist .kindstop a:hover{
+    color: #ff4074;
+}
+.navcat dl.alnav:hover dd.zsfl{
+    display: block;
+}
+
+
+
+
+/*bg部分*/
+#bg{
+    background-color: #f2f2f2;
+}
+.scroll_div{
+    text-align: center;
+    height: 340px;
+    overflow: hidden;
+    position: relative;
+}
+.scroll{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    height: 340px;
+}
+.scroll_cont{
+    position: absolute;
+    width: 1920px;
+    left: -460px;
+    top: 0;
+    height: 340px;
+    overflow: hidden;
+}
+#lbt{
+    position: absolute;
+    width: 1920px;
+    left: -1920px;
+    top: 0;
+    height: 340px;
+    overflow: hidden;
+    display: flex;
+}
+.scroll .arr_left {
+    position: absolute;
+    width: 30px;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_index/scroll.png) no-repeat 0 0;
+    height: 60px;
+    top: 140px;
+    cursor: pointer;
+    left: 0;
+}
+.scroll .arr_right {
+    position: absolute;
+    width: 30px;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_index/scroll.png) no-repeat 0 -76px;
+    height: 60px;
+    top: 140px;
+    cursor: pointer;
+    right: 0;
+}
+.scroll .scroll_num {
+    position: absolute;
+    top: 313px;
+    left: 460px;
+}
+.scroll .scroll_num span {
+    width: 10px;
+    display: inline-block;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_index/scroll.png) no-repeat -190px -26px;
+    height: 10px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.scroll .scroll_num span.current {
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_index/scroll.png) no-repeat -190px 0;
+}
+.home_title {
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    color: #444;
+    font-size: 16px;
+    margin-top: 24px;
+}
+.home_title_line {
+    width: 4px;
+    height: 22px;
+    background: #f70800;
+    margin: 7px 8px 0 0;
+}
+.home_title_tt {
+    font-size: 24px;
+    color: #222;
+    margin-right: 5px;
+    font-weight: 600;
+}
+.home_title_tt i {
+    font-size: 26px;
+    color: #f70800;
+}
+.program_list_btn {
+    width: 116px;
+    height: 34px;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2018-50/home/program_list_btn.png) no-repeat;
+}
+.tv_live{
+    width: 960px;
+    padding: 19px;
+    background: #FFF;
+    border: 1px solid #ddd;
+    margin-top: 12px;
+    position: relative;
+}
+.tv_live_list{
+    height: 278px;
+    overflow: hidden;
+    position: relative;
+}
+.tv_live_list ul {
+    position: absolute;
+    width: 1920px;
+}
+.tv_live_list ul li{
+    position: relative;
+    float: left;
+    height: 278px;
+    overflow: hidden;
+    width: 960px;
+    float: left;
+}
+.tv_live_cc{
+    float: left;
+    width: 299px;
+    padding: 0 10px;
+    border-left: 1px solid #eee;
+    margin-left: -1px;
+}
+.tv_live_img_box{
+    width: 300px;
+    position: relative;
+}
+.live_ing{
+    width: 51px;
+    height: 22px;
+    line-height: 22px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: -webkit-linear-gradient(left, #ff5953, #ff3d5a);
+    background: -o-linear-gradient(left, #ff5953, #ff3d5a);
+    background: -moz-linear-gradient(left, #ff5953, #ff3d5a);
+    background: linear-gradient(left, #ff5953, #ff3d5a);
+    border-radius: 11px;
+    padding: 0 10px 0 19px;
+    color: #FFF;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.live_ing::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+.tv_live_img_box img.tv_logo {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 67px;
+    height: 23px;
+}
+.tv_live_img_box img, .tv_day_img_box img{
+    width: 100%;
+}
+.livetime-back {
+    width: 130px;
+    height: 40px;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 -65px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    border-radius: 30px;
+    text-indent: 20px;
+    z-index: 10;
+    cursor: pointer;
+}
+.livetime-back:after {
+    position: absolute;
+    content: "";
+    background: url('http://www.ugoshop.com/themes/ugo/images/2018-50/home/icon_play.png');
+    background-size: 100% 100%;
+    width: 15px;
+    height: 18px;
+    right: 8px;
+    top: 11px;
+}
+.tv_live_box_tit {
+    margin-top: 10px;
+    height: 52px;
+    line-height: 26px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.tv_live_box_tit .img_tit {
+    font-size: 16px;
+    display: block;
+    overflow: hidden;
+}
+.c_clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.tv_live_box_yen {
+    margin-top: 13px;
+    height: 26px;
+    padding: 0 10px 3px 10px;
+}
+.tv_live_box_price {
+    font-size: 26px;
+    color: #222;
+    font-family: arial;
+    margin-right: 10px;
+}
+.t_prev, .t_next {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 34px;
+    height: 34px;
+    border: 3px solid rgba(153,153,153,.2);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.t_prev{
+    left: 5px;
+}
+.t_prev::after {
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: 10px;
+    width: 12px;
+    height: 12px;
+    border-left: solid 2px #ccc;
+    border-bottom: solid 2px #ccc;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+}
+.t_next {
+    right: 5px;
+}
+.t_next::after {
+    content: "";
+    position: absolute;
+    right: 14px;
+    top: 10px;
+    width: 12px;
+    height: 12px;
+    border-right: solid 2px #ccc;
+    border-top: solid 2px #ccc;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+}
+.t_prev:hover, .t_next:hover {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    cursor: pointer;
+    background: #c2c2c2;
+    border-radius: 50%;
+}
+.day_djs {
+    font-size: 14px;
+    color: #666;
+}
+.livetime-day {
+    margin-left: 10px;
+}
+.livetime-day span{
+    background: #333;
+    color: #FFF;
+    padding: 5px;
+}
+.index_line {
+    padding-top: 20px;
+    width: 100%;
+}
+.daily {
+    width: 240px;
+    height: 372px;
+    background: #FF472B;
+    background: -webkit-linear-gradient(top right, #ff8e4a ,#fa4444 );
+    background: -o-linear-gradient(top right, #ff8e4a ,#fa4444 );
+    background: -moz-linear-gradient(top right, #ff8e4a ,#fa4444 );
+    background: linear-gradient(to top right, #ff8e4a ,#fa4444 );
+}
+.daily_shop {
+    background: #FFF;
+    width: 180px;
+    height: 307px;
+    padding: 15px;
+    margin: 17px 0 0 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+.shadow_lb {
+    position: absolute;
+    background: url('http://www.ugoshop.com/themes/ugo/images/2018-50/home/shadow_lb.png');
+    background-size: 100% 100%;
+    width: 47px;
+    height: 30px;
+    left: -11px;
+    bottom: -11px;
+}
+.shadow_rt {
+    position: absolute;
+    background: url('http://www.ugoshop.com/themes/ugo/images/2018-50/home/shadow_rt.png');
+    background-size: 100% 100%;
+    width: 47px;
+    height: 30px;
+    right: -11px;
+    top: -11px;
+}
+.everyday {
+    float: left;
+    width: 119px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 0 0 10px 10px;
+    background: #aa2424;
+    color: #FFF;
+    font-size: 17px;
+    position: absolute;
+    left: 5px;
+    top: 0;
+}
+.icon_clock {
+    float: left;
+    width: 17px;
+    height: 19px;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2018-50/home/icon_clock.png) no-repeat;
+    background-size: 100%;
+    margin: 5px 8px 0 10px;
+}
+.daily_shop_img {
+    height: 200px;
+    width: 100%;
+}
+.daily_shop_img img{
+    width: 180px;
+    height: 180px;
+}
+.daily_shop_tjs {
+    font-size: 16px;
+    color: #f70800;
+    padding-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.daily_shop_tt {
+    font-size: 16px;
+    color: #222;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.daily_shop_box_yen {
+    padding-top: 15px;
+}
+.daily_shop_box_price {
+    font-size: 26px;
+    color: #222;
+    font-family: arial;
+    margin-right: 10px;
+}
+.daily_shop_box_yen .line_price {
+    font-size: 14px;
+    line-height: 36px;
+}
+.daily_num_tag {
+    width: 60px;
+    height: 60px;
+    padding-top: 6px;
+    position: absolute;
+    bottom: 0;
+    right: -5px;
+    background-image: url(http://www.ugoshop.com/themes/ugo/images/2018-50/home/bg_tag.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #FFF;
+    text-align: center;
+}
+.daily_num_tag .span1 {
+    transform: rotate(15deg);
+    font-size: 14px;
+    line-height: 16px;
+}
+.span2 {
+    font-size: 16px;
+}
+.d_prev, .d_next {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 34px;
+    height: 34px;
+    border: 3px solid rgba(153,153,153,.2);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.d_prev {
+    left: 5px;
+}
+.d_prev::after {
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: 10px;
+    width: 12px;
+    height: 12px;
+    border-left: solid 2px #ccc;
+    border-bottom: solid 2px #ccc;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+}
+.d_next {
+    right: 5px;
+}
+.d_next::after {
+    content: "";
+    position: absolute;
+    right: 14px;
+    top: 10px;
+    width: 12px;
+    height: 12px;
+    border-right: solid 2px #ccc;
+    border-top: solid 2px #ccc;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+}
+.tv_day_one {
+    width: 723px;
+    height: 340px;
+    border: 1px solid #ddd;
+    padding: 15px 10px;
+    background: #FFF;
+}
+.tv_day_one_list {
+    height: 340px;
+    overflow: hidden;
+    position: relative;
+}
+.tv_day_one_list ul {
+    position: absolute;
+}
+.tv_day_one ul li {
+    position: relative;
+    float: left;
+    height: 340px;
+    overflow: hidden;
+    width: 723px;
+}
+.tv_day_one_cc {
+    float: left;
+    width: 210px;
+    height: 340px;
+    padding: 0 15px;
+    border-left: 1px solid #eee;
+    margin-left: -1px;
+}
+.tv_day_img_box {
+    width: 210px;
+    height: 210px;
+}
+.tv_day_one_cc .tv_live_box_tit {
+    padding: 0;
+    margin-top: 10px;
+    height: 52px;
+    line-height: 26px;
+    overflow: hidden;
+}
+.tv_live_box_tit .img_tit {
+    font-size: 16px;
+    display: block;
+    overflow: hidden;
+}
+.tv_day_one_cc .tv_live_box_yen {
+    margin-top: 5px;
+    padding: 0;
+    height: 26px;
+}
+.tv_live_box_price {
+    font-size: 26px;
+    color: #222;
+    font-family: arial;
+    margin-right: 10px;
+}
+.tv_day_one_cc .line_price {
+    font-size: 14px;
+    line-height: 36px;
+    color: #999;
+    text-decoration: line-through;
+}
+.tv_day_one_yen {
+    margin-top: 12px;
+    height: 26px;
+    line-height: 26px;
+    color: #666;
+    font-size: 14px;
+}
+.tv_live_box_surplus {
+    width: 90px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    background: #ffe3e2;
+    border: 1px solid #f70800;
+    color: #f70800;
+    text-align: center;
+}
+.close_tip {
+    font-size: 15px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 13px;
+    padding: 0 10px;
+    cursor: pointer;
+    border: 1px solid #666;
+    color: #666;
+}
+.cor_red_ing {
+    border: 1px solid #f70800;
+    background: #f70800;
+    color: #fff;
+}
+.home_four {
+    overflow: hidden;
+    width: 102%;
+}
+.home_four a {
+    display: block;
+    float: left;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+.home_four img {
+    width: 490px;
+    height: 270px;
+}
+.cl {
+    clear: both;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.three_col {
+    padding-bottom: 30px;
+}
+.three_col ul {
+    width: 1020px;
+}
+.three_col li {
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 318px;
+    height: 452px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+.three_box {
+    padding: 10px;
+    background-color: #fff;
+    position: relative;
+}
+.three_img_box {
+    position: relative;
+    width: 298px;
+    height: 298px;
+    overflow: hidden;
+    z-index: 2;
+}
+.three_img_box img{
+    width: 298px;
+    height: 298px;
+}
+.three_box_tit {
+    margin-top: 18px;
+    height: 52px;
+    line-height: 26px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.three_subtit {
+    color: #f70800;
+    margin-top: 5px;
+    overflow: hidden;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 0 10px;
+}
+.three_yen {
+    margin-top: 13px;
+    height: 26px;
+    padding: 0 10px 3px 10px;
+}
+.three_price {
+    font-size: 26px;
+    color: #222;
+    font-family: arial;
+    margin-right: 10px;
+}
+.three_price i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+.purchased {
+    color: #666;
+    margin-top: 9px;
+}
+.purchased i {
+    color: #f70800;
+}
+.tax_box_bt {
+    height: 32px;
+    line-height: 32px;
+    background-color: #f8f8f8;
+    color: #666;
+    font-size: 12px;
+    border-top: 1px solid #eee;
+    padding: 0 20px;
+}
+
+/*底部部分*/
+footer{
+    height: auto;
+    text-align: center;
+    padding: 0;
+    background: none;
+    font-family: "\5FAE\8F6F\96C5\9ED1",tahoma,arial,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    padding-bottom: 90px;
+    border-top: 1px solid #e3e3e3;
+}
+footer .footad {
+    height: 100px;
+    background-color: #f6f6f6;
+}
+footer .flist {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 26px 0 26px 75px;
+}
+footer .flistdl {
+    float: left;
+    width: 95px;
+    height: 114px;
+    padding-left: 42px;
+    border-right: 1px dotted #e6e6e6;
+    text-align: left;
+}
+footer .flistdl dt {
+    color: #333;
+    font-size: 16px;
+    height: 26px;
+    line-height: 26px;
+}
+footer .flistdl dd {
+    height: 22px;
+    line-height: 22px;
+}
+footer dl.nob {
+    border: 0;
+}
+footer .flistdl2 {
+    margin-left: 20px;
+    float: left;
+}
+footer .flistdl2 dt {
+    width: 80px;
+    text-align: center;
+}
+footer .flistdl2 dt em {
+    color: #999;
+}
+.footerinfo {
+    padding-top: 22px;
+    line-height: 22px;
+    text-align: center;
+}
+.webw {
+    margin: 0 auto;
+    width: 1140px;
+}
+p.footer-list {
+    height: 26px;
+    color: #555;
+}
+p.footer-list a {
+    color: #555;
+    padding: 0 8px;
+    font-size: 13px;
+}
+.yqlink {
+    width: 960px;
+    margin: 0 auto;
+}
+.dlphh {
+    line-height: 22px;
+    height: 22px;
+    overflow: hidden;
+    text-align: left;
+    width: 900px;
+}
+.dlphh em {
+    padding-right: 8px;
+    color: #666;
+}
+.dlphh a {
+    padding-right: 8px;
+    color: #555;
+}
+.r_button {
+    width: 50px;
+    height: 22px;
+    line-height: 22px;
+    cursor: pointer;
+    color: #555;
+}
+p.copyright {
+    color: #555;
+    line-height: 22px;
+}
+p.footer-list a {
+    color: #555;
+    padding: 0 8px;
+    font-size: 13px;
+}
+
+
+/*右侧导航栏部分*/
+.sidebar {
+    z-index: 999;
+    width: 36px;
+    position: fixed;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+.sidebar ul.bar-top {
+    position: absolute;
+    top: 50%;
+    margin-top: -72px;
+    right: 0;
+    width: 36px;
+    height: 144px;
+}
+.sidebar ul.bar-bot {
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    width: 36px;
+    height: 108px;
+}
+.sidebar li {
+    width: 36px;
+    height: 36px;
+    clear: both;
+    z-index: 2;
+    position: absolute;
+}
+.sidebar li.fly-user {
+    right: 0;
+    top: 0;
+}
+.a-user-c {
+    background-position: 0 0;
+}
+.a-sidebar {
+    display: block;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/xfbj.png) no-repeat;
+    z-index: 2;
+    position: relative;
+}
+.sidebarcom-hover {
+    position: absolute;
+    right: -325px;
+    top: 0;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/centerbj.jpg) no-repeat;
+    width: 257px;
+    height: 228px;
+    padding: 2px;
+    z-index: 1;
+}
+.sidebarcom-hover a.closex {
+    display: block;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    right: 12px;
+    top: 20px;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/xfbj.png) no-repeat -69px -357px;
+    cursor: pointer;
+}
+.slide-login {
+    margin-top: 30px;
+}
+.slide-pic {
+    width: 74px;
+    height: 74px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+}
+.slide-login-btn {
+    text-align: center;
+}
+.slide-login-btn a {
+    color: #f70800;
+    padding: 6px;
+}
+.slide-login-go {
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    width: 207px;
+    background-color: #f8f8f8;
+    padding: 16px 25px;
+}
+.slide-login-go a {
+    display: inline-block;
+    width: 88px;
+    height: 28px;
+    color: #222;
+    text-align: center;
+    line-height: 28px;
+    color: #222;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.a-mydd {
+    margin-right: 18px;
+}
+.sidebar li.fly-cart {
+    right: 0;
+    top: 36px;
+}
+.sidebar li.fly-care {
+    right: 0;
+    top: 72px;
+}
+.sidebar li.fly-ser {
+    right: 0;
+    top: 108px;
+}
+.sidebar li .cart-c {
+    width: 36px;
+    height: 36px;
+}
+.a-cart-c {
+    background-position: 0 -46px;
+}
+.cart-num {
+    display: block;
+    z-index: 3;
+    position: absolute;
+    right: 0;
+    top: -2px;
+    width: 24px;
+    height: 14px;
+    line-height: 11px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/xfbj.png) no-repeat 0 -342px;
+}
+.slide-hui {
+    width: 90px;
+    height: 36px;
+    line-height: 36px;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/xfbj.png) no-repeat 0 -412px;
+    right: -90px;
+    top: 0;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+}
+.a-care-c {
+    background-position: 0 -92px;
+}
+.slide-hui a {
+    color: #fff;
+}
+.sidebar li.fly-code {
+    right: 0;
+    top: 0;
+}
+.sidebar li.fly-ask {
+    right: 0;
+    top: 36px;
+}
+.sidebar li.fly-return {
+    right: 0;
+    top: 72px;
+}
+.a-code-c {
+    background-position: 0 -184px;
+}
+.code-pic {
+    position: absolute;
+    right: -135px;
+    top: -73px;
+    width: 132px;
+    height: 182px;
+    z-index: 1;
+}
+.a-ask-c {
+    background-position: 0 -230px;
+}
+.a-return-c {
+    background-position: 0 -276px;
+}
+.fly-user:hover .sidebarcom-hover{
+    right: 36px;
+    cursor: pointer;
+    z-index: 1;
+}
+.fly-cart:hover .slide-hui{
+    right: 36px;
+    cursor: pointer;
+    z-index: 1;
+}
+.fly-care:hover .slide-hui{
+    right: 36px;
+    cursor: pointer;
+    z-index: 1;
+}
+.fly-ser:hover .slide-hui{
+    right: 36px;
+    cursor: pointer;
+    z-index: 1;
+}
+.fly-code:hover .code-pic{
+    right: 36px;
+    cursor: pointer;
+    z-index: 1;
+}
+.fly-ask:hover .slide-hui{
+    right: 36px;
+    cursor: pointer;
+    z-index: 1;
+}
+.fly-return:hover .slide-hui{
+    right: 36px;
+    cursor: pointer;
+    z-index: 1;
+}
+.sidebar-out {
+    height: 100%;
+    border-right: 4px solid #222;
+    position: fixed;
+    right: 0;
+    top: 0;
+    _position: absolute;
+    _bottom: auto;
+    _top: expression(eval(document.documentElement.scrollTop));
+    _height: expression(document.documentElement.clientHeight+"px");
+}
+
+/*登录状态的样式*/
+li.yg-card span {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+li.yg-card span a {
+    color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

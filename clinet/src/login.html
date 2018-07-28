@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/lib/require.js" data-main="js/login.js"></script>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/top.css">
+</head>
+<body>
+<div id="top_nav">
+    <div id="top_nav_main">
+        <ul class="top_nav_main_tool">
+            <li><span><a href="register.html">注册</a></span>|</li>
+            <li><span><a href="login.html">登录</a></span>|</li>
+            <li><span><a href="#">我的订单</a></span>|</li>
+            <li><span><a href="#">我的关注</a></span>|</li>
+            <li><span><a href="#">咨询</a></span>|</li>
+            <li><span><a href="#">品牌馆</a></span>|</li>
+            <li class="phone_in">
+                <span>
+                    <a href="#">
+                        <i>
+                            <img src="http://www.ugoshop.com/themes/ugo/images/2015/2015_public/phone.png" width="9" height="12" alt="手机优品惠" title="优品惠手机客户端二维码">
+                        </i>
+                    </a>手机优品惠
+                </span>
+                <div class="down_app">
+                    <i></i>
+                    <div class="app_erm">
+                        <a href="#">
+                            <img alt="" title="" src="http://www.ugoshop.com/themes/ugo/images/2015/2015_public/ewm90X90.jpg" width="90" height="90">
+                        </a>
+                        <p>
+                            <a href="#">扫一扫哦</a>
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="sidebar-out"></div>
+<div class="sidebar">
+    <ul class="bar-top">
+        <li class="fly-user">
+            <div class="user-c">
+                <a class="a-user-c a-sidebar"></a>
+                <div class="sidebarcom-hover">
+                    <a class="closex"></a>
+                    <div class="slide-login" id="left_user_info">
+                        <a href="javascript:void(0);" class="slide-pic">
+                            <img alt="" src="http://www.ugoshop.com/themes/ugo/images/2015/2015_public/72x72.jpg" width="72" height="72">
+                        </a>
+                        <p class="slide-login-btn">
+                            你好！请
+                            <a rel="nofollow" href="#">登录</a>|
+                            <a href="#" rel="nofollow">注册</a>
+                        </p>
+                    </div>
+                    <p class="slide-login-go">
+                        <a href="#" class="a-mydd">我的订单</a>
+                        <a href="#" class="a-myyhq">优惠券</a>
+                    </p>
+                </div>
+            </div>
+        </li>
+        <li class="fly-cart">
+            <div class="cart-c">
+                <a class="a-cart-c  a-sidebar"></a>
+                <em class="cart-num" id="cart_num_2">0</em>
+                <p class="slide-hui"><a href="#">购物车</a></p>
+            </div>
+        </li>
+        <li class="fly-care">
+            <div class="care-c" id="_AD_right_care">
+                <a class="a-care-c  a-sidebar"></a>
+                <p class="slide-hui"><a href="#">我的关注</a></p>
+            </div>
+        </li>
+        <li class="fly-ser">
+            <div class="ser-c">
+                <a class="a-ser-c a-sidebar" style="background-position: 0px -138px;"></a>
+                <p class="slide-hui"><a href="javascript:void(0)" target="_self">在线客服</a></p>
+            </div>
+        </li>
+    </ul>
+    <ul class="bar-bot">
+        <li class="fly-code">
+            <div class="code-c">
+                <a class="a-code-c a-sidebar"></a>
+                <p class="code-pic">
+                    <a href="#" target="_blank"><img alt="优品惠手机APP" src="http://www.ugoshop.com/themes/ugo/images/2015/2015_public/code.jpg" width="132" height="182"></a>
+                </p>
+            </div>
+        </li>
+        <li class="fly-ask">
+            <div class="ask-c">
+                <a class="a-ask-c a-sidebar"></a>
+                <p class="slide-hui"><a href="#">调查问卷</a></p>
+            </div>
+        </li>
+        <li class="fly-return">
+            <div class="return-c" id="_AD_right_top">
+                <a class="a-return-c a-sidebar"></a>
+                <p class="slide-hui"><a>返回顶部</a></p>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="welland">
+    <img src="http://www.ugoshop.com/themes/ugo/images/2013_v1/landreg/logEWM.gif" alt="" class="EWM">
+    <div class="land_logo">
+        <div class="l land_logo_img">
+            <a class="l" href="http://10.41.151.21/work/usgoshop/clinet/src/index1.html" target="_self"></a>
+            <span class="l reglogo"></span>
+        </div>
+        <p class="r kefuphonenum">
+            如有问题请点击
+            <a href="#" target="_blank">
+                帮助中心
+            </a>
+            ，或拨打客服热线：
+            <strong>400-707-0707</strong>
+        </p>
+    </div>
+    <div class="land_con clearfix" id="land">
+        <!--left-->
+        <div class="l land_con_l">
+            <form id="myFrom">
+                <div class="land_item">
+                    <span>手机号/邮箱/昵称</span>
+                    <div class="item-ifo yz1">
+                        <input type="text" class="yhm_text text1" id="utel" name="utel" value="">
+                        <div id="acnum" class="i-name land_ico"></div>
+                    </div>
+                </div>
+                <div class="land_item">
+                    <span>密码</span>
+                    <div class="item-ifo yz2">
+                        <input type="text" class="yhm_text text2" id="upwd" name="upwd" value="">
+                        <div id="ladpasw" class="i-name land_ico2"></div>
+                    </div>
+
+                </div>
+                <div class="land_item2">
+                    <input type="checkbox" class="checkbox l" value="get_pass" id="jzuname" style="border-color: rgb(162, 162, 162);">
+                    <label class="l mjy">记住用户名</label>
+                    <label class="r wjma">
+                        <a href="#" target="_blank">忘记密码?</a>
+                    </label>
+                </div>
+                <div class="land_item"  style="display: block;">
+                    <span>验证码</span>
+                    <div id="testnum" class="item-ifo yz3 clearfix">
+                        <input type="text" class="yhm_text1 l  text3" id="yzm" name="yzm">
+                        <div id="yzmshow">
+
+                        </div>
+                        <label class="yimg">
+                            看不清
+                            <a class="code_refresh" href="javascript:;">换一张</a>
+                        </label>
+
+                    </div>
+                </div>
+                <div class="login-btn">
+                    <button class="btn-img" value="" id="button"></button>
+                </div>
+                <div class="login_tips">
+                    <p>温馨提示：</p>
+                    优品惠升级为电视购物大全，其中融合了优购物、时尚购等多家优质购物频道。时尚购APP用户已合并至优品惠，可以通过时尚购APP账户和密码登录优品惠。
+                </div>
+            </form>
+        </div>
+        <!--right-->
+        <div class="r land_con_r">
+            <div class="land_item3">
+                <span>您还不是优品惠的会员？</span>
+                <a href="register.html">免费注册 &gt;</a>
+            </div>
+            <div class="land_item3 mg42">
+                <span>电话订购过优品惠商品？</span>
+                <a href="#" target="_blank">快速激活 &gt;</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="masked login_exception"></div>
+<div class="popups login_unusual login_exception">
+    <i class="p_icon_close"></i>
+    <span class="pop_l_tt"><i class="pop_li_tips">i</i><font class="error_msg">用户名或密码不正确</font></span>  <br>
+    <span>请拨打客服热线由客服人工进行处理</span>
+    <p class="pop_li_con">客服热线：4007070707</p>
+</div>
+<footer>
+
+</footer>
+</body>
+</html>

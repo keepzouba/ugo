@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/lib/require.js" data-main="js/cartlist"></script>
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/bottom.css">
+    <link rel="stylesheet" href="css/cartlist.css">
+</head>
+<body>
+<div id="top_nav">
+    <div id="top_nav_main">
+        <ul class="top_nav_main_tool">
+            <li><span><a href="http://10.41.151.21/work/usgoshop/clinet/src/register.html">注册</a></span>|</li>
+            <li><span><a href="http://10.41.151.21/work/usgoshop/clinet/src/login.html">登录</a></span>|</li>
+            <li><span><a href="#">我的订单</a></span>|</li>
+            <li><span><a href="#">我的关注</a></span>|</li>
+            <li><span><a href="#">咨询</a></span>|</li>
+            <li><span><a href="#">品牌馆</a></span>|</li>
+            <li class="phone_in">
+                <span>
+                    <a href="#">
+                        <i>
+                            <img src="http://www.ugoshop.com/themes/ugo/images/2015/2015_public/phone.png" width="9" height="12" alt="手机优品惠" title="优品惠手机客户端二维码">
+                        </i>
+                    </a>手机优品惠
+                </span>
+                <div class="down_app">
+                    <i></i>
+                    <div class="app_erm">
+                        <a href="#">
+                            <img alt="" title="" src="http://www.ugoshop.com/themes/ugo/images/2015/2015_public/ewm90X90.jpg" width="90" height="90">
+                        </a>
+                        <p>
+                            <a href="#">扫一扫哦</a>
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="webz header clearfix">
+    <h1 class="fl logo" id="_AD_head_logo">
+        <a href="http://10.41.151.21/work/usgoshop/clinet/src/index1.html"><img alt="优品惠" title="全球优品特卖优品惠" src="http://www.ugoshop.com/themes/ugo/images/2015/2015_public/logo.png"></a>
+    </h1>
+    <div class="stepflex">
+        <dl class="done">
+            <dt>1</dt>
+            <dd>我的购物车</dd>
+        </dl>
+        <dl class="">
+            <dt>2</dt>
+            <dd>确认订单信息</dd>
+        </dl>
+        <dl class="last ">
+            <dt>3</dt>
+            <dd>提交订单</dd>
+        </dl>
+    </div>
+</div>
+<div id="cartlist" class="webz c_clearfix shoppingcart_con">
+    <p class="shopcart_tit">我的购物车</p>
+    <div class="cart_con">
+        <ul class="cart_con_tit c_clearfix">
+            <li class="tit_check"><input type="checkbox" checked="checked" data-role="all"><label>全选</label></li>
+            <li class="tit_meg">商品信息</li>
+            <li class="tit_price">单价（元）</li>
+            <li class="tit_quantity">数量</li>
+            <li class="tit_sum">小计（元）</li>
+            <li class="tit_action">操作</li>
+        </ul>
+        <ul class="cart_form c_clearfix">
+            <li style="display: none" id="list_origin" class="shopping_con">
+                <div class="c_meg">
+                    <dl>
+                        <dt>
+                            <a href="#"><img src="http://img.ugoshop.com//shade/201803/4e2dfcea1104ee39924beec1c7612578.jpg" width="78" height="78" class="p_img"></a>
+                        </dt>
+                        <dd>
+                            <p class="m_tit">
+                                <a href="javascript:void(0)" class="p_title">赛普瑞斯.先生黑骑士不粘锅家庭抢购组（新）</a>
+                            </p>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="c_price">
+                    <p class="c_price_num">¥<i class="p_price">988</i></p>
+                </div>
+                <div class="c_quantity">
+                    <div class="c_amount c_clearfix">
+                        <a href="javascript:void(0)">-</a>
+                        <input type="text" name="amt" value="1" class="p_num">
+                        <a href="javascript:void(0)">+</a>
+                    </div>
+                </div>
+                <div class="c_sum">
+                    <p>¥<i class="p_count_price">988</i></p>
+                </div>
+                <div class="c_action">
+                    <i class="i_del" data-role="del">删除</i>
+                </div>
+                <div class="c_check">
+                    <input data-role="product" type="checkbox" checked="checked" id="dx">
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="cart_con c_clearfix">
+        <div class="c_balance">
+            <!--计算-->
+            <div class="c_count">
+                <p class="c_clearfix"><span class="c_rt">¥<i class="fs_14" id="count_price">988</i></span><span class="c_lt">商品金额：</span><span class="c_piece">共<i>1</i>件商品</span></p>
+                <p class="c_clearfix"><span class="c_rt">－¥<i class="fs_14">10</i></span><span class="c_lt">优惠金额：</span></p>
+                <p class="c_clearfix"><span class="c_rt c_paid">¥<i>978</i></span><span class="c_lt fw_b">实付金额：</span></p>
+            </div>
+            <!--计算/-->
+        </div>
+        <div class="c_balance_bt">
+            <div class="webz">
+                <div class="b_check">
+                    <input data-role="all" checked="checked" type="checkbox"><label>全选</label>
+                </div>
+                <div class="b_del"><i></i>删除</div>
+                <a href="/user.php?back_act=/flow/cart/" class="balance_bt">立即结算</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="emptycart" style="display: none" class="webz c_clearfix">
+    <div class="cart_empty">
+        <i class="cart_empty_img"></i>
+        <p class="cart_empty_tit">购物车空空的哟～<a href="/">去挑选商品&gt;</a></p>
+    </div>
+</div>
+<footer>
+
+</footer>
+</body>
+</html>

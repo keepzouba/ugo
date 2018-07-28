@@ -1,0 +1,1073 @@
+/*登录状态的样式*/
+li.yg-card span {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+li.yg-card span a {
+    color: #666;
+}
+
+/*详情页部分*/
+.sh-crumbs {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.sh-crumbs code {
+    display: inline-block;
+    padding: 0 3px;
+}
+.sh-goods-key {
+    margin-bottom: 30px;
+}
+.sh-goods-gallery {
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    width: 400px;
+    z-index: 100;
+}
+.sh-goods-gallery .preview {
+    margin-bottom: 15px;
+    border: 1px solid #EDEDED;
+    width: 398px;
+    height: 398px;
+    position: relative;
+}
+.sh-goods-gallery .preview span.jqzoom, .sh-goods-gallery .preview span.jqzoom img {
+    display: block;
+    width: 398px;
+    height: 398px;
+    overflow: hidden;
+}
+.sh-goods-gallery .preview i.lens, .jqzoom-scroll .prev, .jqzoom-scroll .prev.disabled, .jqzoom-scroll .prev:hover.disabled, .jqzoom-scroll .prev:hover, .jqzoom-scroll .next, .jqzoom-scroll .next.disabled, .jqzoom-scroll .next:hover.disabled, .jqzoom-scroll .next:hover, .jqzoom-scroll .items ul li i, .jqzoom-scroll .items ul li:hover i, .sh-goods-share .share span i, .sh-goods-share .concerns span.concerns-text i, .sh-goods-share .concerns span.concerns-text.already i, .sh-goods-details .group .related .comment .comment-box .comment-box-list ul.comment-list li .author i.a-level, .sh-goods-details .group .related .comment .comment-box .comment-box-list ul.comment-list li .author i.comment-star, .custom-checkbox label i, .custom-radio label i, .sh-shopping-cart i, .sh-goods-parameters .price-box .taxation span.taxation-text i, .sh-goods-parameters .sale-mode.bs, .sh-goods-parameters .sale-mode.zg {
+    background: url("http://www.ugoshop.com/themes/ugo/images/2016/2016_goods/icons.png") no-repeat;
+}
+.sh-goods-gallery .preview i.lens {
+    bottom: 10px;
+    right: 10px;
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    background-position: -62px -10px;
+    z-index: 11;
+}
+.sh-goods-gallery .preview i.lens a {
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+.bqtv {
+    background: rgba(0, 0, 0, 0) url("http://www.ugoshop.com/themes/ugo/images/2013_v1/tvpic/newbq.png") repeat scroll 0 -55px;
+    height: 58px;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    width: 58px;
+    z-index: 99;
+}
+.hdlog {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    right: 10px;
+    overflow: hidden;
+    z-index: 99;
+}
+.hdlog img {
+    width: 80px;
+    height: 80px;
+}
+.jqzoom-scroll {
+    margin: 0 auto;
+    width: 390px;
+}
+.jqzoom-scroll .prev {
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+    background-position: -20px -11px;
+}
+.jqzoom-scroll .next {
+    float: right;
+    background-position: -110px -11px;
+    margin-right: 5px;
+}
+.jqzoom-scroll .next:hover {
+    background-position: -130px -11px;
+}
+.jqzoom-scroll .prev, .jqzoom-scroll .next {
+    margin-top: 22px;
+    display: block;
+    width: 10px;
+    height: 15px;
+    cursor: pointer;
+}
+.jqzoom-scroll .prev.disabled, .jqzoom-scroll .prev:hover.disabled {
+    background-position: 0 -11px;
+}
+.jqzoom-scroll .items {
+    float: left;
+    position: relative;
+    width: 350px;
+    height: 60px;
+    overflow: hidden;
+}
+.jqzoom-scroll .items ul {
+    position: absolute;
+    width: 999999px;
+    height: 60px;
+}
+.jqzoom-scroll .items ul li {
+    border: 1px solid #ededed;
+    float: left;
+    width: 58px;
+    height: 58px;
+    position: relative;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.jqzoom-scroll .items ul li:hover, .jqzoom-scroll .items ul li.active {
+    border: 1px solid #f70800;
+}
+.jqzoom-scroll .items ul li img {
+    width: 58px;
+    height: 58px;
+}
+.sh-goods-share {
+    margin-top: 20px;
+}
+.sh-goods-share .no {
+    float: left;
+    color: #adadad;
+}
+.sh-goods-share .baidu-share {
+    float: right;
+}
+#bdshare {
+    z-index: 999999;
+    padding-bottom: 2px;
+    font-size: 12px;
+    float: left;
+    text-align: left!important;
+    zoom: 1;
+}
+.sh-goods-share .baidu-share .share .bds_more {
+    width: 24px;
+}
+.sh-goods-share .share span {
+    padding-top: 0 !important;
+    height: auto !important;
+    padding-bottom: 0 !important;
+    float: none !important;
+    font-family: "Microsoft YaHei" !important;
+    font-size: 12px !important;
+    color: #222;
+    background-image: none !important;
+    position: relative;
+}
+.sh-goods-share .share span i {
+    display: block;
+    position: absolute;
+    top: 1px;
+    right: 30px;
+    width: 13px;
+    height: 13px;
+    background-position: -72px -289px;
+}
+.sh-goods-share .concerns {
+    float: left;
+    position: relative;
+    color: #222;
+    display: block;
+    padding-left: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sh-goods-share .concerns span.concerns-text {
+    position: relative;
+}
+.sh-goods-share .concerns span.concerns-text.already i {
+    background-position: -100px -270px;
+}
+.sh-goods-share .concerns span.concerns-text i {
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: -10px;
+    width: 13px;
+    height: 11px;
+    background-position: -72px -270px;
+}
+.sh-goods-share .concerns span.concerns-text span {
+    display: inline-block;
+    margin-left: 10px;
+    width: 50px;
+}
+.sh-goods-parameters {
+    float: right;
+    position: relative;
+    width: 570px;
+    z-index: 99;
+}
+.sh-goods-parameters .brand {
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.sh-goods-parameters .brand span.country-flag, .sh-goods-parameters .brand span.country-brand {
+    float: left;
+}
+.sh-goods-parameters .brand span {
+    display: block;
+    height: 27px;
+    line-height: 27px;
+    color: #666;
+}
+.sh-goods-parameters .brand span a {
+    color: #666;
+}
+.sh-goods-parameters .title {
+    margin-bottom: 10px;
+    width: 420px;
+    color: #222;
+    font-size: 18px;
+    line-height: 22px;
+}
+.sh-goods-parameters .price-box {
+    position: relative;
+    padding: 15px 10px 10px 10px;
+    margin-bottom: 15px;
+    border: 1px dotted #e8e8e8;
+    background-color: #fafafa;
+}
+.sh-goods-parameters .price-box ul li {
+    margin: 0;
+    padding: 0;
+    color: #666;
+}
+.sh-goods-parameters .price-box ul li.mb {
+    margin-bottom: 5px;
+}
+.sh-goods-parameters .price-box ul li span, .sh-goods-parameters .price-box ul li div {
+    display: inline-block;
+}
+.sh-goods-parameters .price-box ul li span.label {
+    width: 40px;
+    vertical-align: top;
+}
+.sh-goods-parameters .price-box ul li span.label.price-label {
+    margin-top: 15px;
+}
+.sh-goods-parameters .price-box ul li span.price {
+    color: #f70800;
+    font-size: 34px;
+    margin-right: 7px;
+}
+.sh-goods-parameters .price-box ul li span.price i {
+    font-size: 24px;
+    vertical-align: top;
+    margin-top: 8px;
+    display: inline-block;
+}
+.sh-goods-parameters .price-box ul li span.label {
+    width: 40px;
+    vertical-align: top;
+}
+.sh-goods-parameters .price-box ul li div p {
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+.sh-goods-parameters .price-box ul li div p span {
+    max-width: 350px;
+    vertical-align: text-top;
+}
+.sh-goods-parameters .price-box ul li div p span.tag {
+    padding: 1px 8px;
+    margin-right: 5px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #ff504a;
+    color: #fff;
+    text-align: center;
+}
+.sh-goods-parameters .choice-buy {
+    margin-bottom: 30px;
+}
+.sh-goods-parameters .choice-buy dl {
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+.sh-goods-parameters .choice-buy dl dd {
+    float: left;
+    width: 420px;
+}
+.sh-goods-parameters .choice-buy dl dt {
+    float: left;
+    width: 40px;
+}
+.sh-goods-parameters .choice-buy dl.sendto dt {
+    margin-top: 5px;
+}
+.store-select {
+    height: 24px;
+    border: 1px solid #ccc;
+    padding: 0 22px 0 10px;
+    float: left;
+    position: relative;
+    z-index: 99;
+}
+.store-select .text {
+    padding: 0 5px 0 0;
+    float: left;
+    position: relative;
+    line-height: 24px;
+}
+.sh-goods-parameters .choice-buy dl dd span {
+    position: relative;
+    float: left;
+    margin-right: 8px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.store-select i {
+    width: 7px;
+    height: 4px;
+    background-image: url(http://www.ugoshop.com/themes/ugo/images/2013_v1/shopcart2014/shop-sprite.gif);
+    background-repeat: no-repeat;
+    background-position: -55px -175px;
+    position: absolute;
+    right: 10px;
+}
+.store-select .store-a {
+    position: absolute;
+    top: 10px;
+}
+.xdljfa {
+    float: left;
+    font-family: 微软雅黑, 黑体;
+    color: rgb(102, 102, 102);
+    height: 24px;
+    line-height: 24px;
+    width: 150px;
+    margin-left: 10px;
+}
+.sh-goods-parameters .choice-buy dl dd span {
+    position: relative;
+    float: left;
+    margin-right: 8px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.sh-goods-parameters .choice-buy dl.color {
+    margin-bottom: 7px;
+}
+.sh-goods-parameters .choice-buy dl.color dd span {
+    margin-bottom: 8px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    padding: 1px;
+    border: 1px solid #ccc;
+}
+.sh-goods-parameters .choice-buy dl.color dd span.select {
+    border-width: 2px;
+    padding: 0;
+}
+.sh-goods-parameters .choice-buy dl dd span.select i {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url("http://www.ugoshop.com/themes/ugo/images/2016/2016_goods/icons.png") no-repeat;
+    background-position: -72px -336px;
+}
+.sh-goods-parameters .choice-buy dl dd span i {
+    display: none;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+.sh-goods-parameters .choice-buy dl.color dd span img {
+    display: block;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+}
+.sh-goods-parameters .choice-buy dl dd span.select {
+    border-color: #ff504a;
+}
+.sh-goods-parameters .choice-buy dl.number dt {
+    margin-top: 4px;
+}
+.sh-goods-parameters .choice-buy dl.number dd .box {
+    float: left;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    width: 102px;
+    height: 26px;
+    line-height: 26px;
+}
+.sh-goods-parameters .choice-buy dl.number dd a, .sh-goods-parameters .choice-buy dl.number dd input[type="text"] {
+    display: block;
+    float: left;
+}
+.sh-goods-parameters .choice-buy dl.number dd a {
+    width: 26px;
+    height: 26px;
+    text-align: center;
+}
+.sh-goods-parameters .choice-buy dl.number dd a.limit {
+    color: #999;
+    background-color: #f2f2f2;
+    cursor: not-allowed;
+}
+.sh-goods-parameters .choice-buy dl.number dd input[type="text"] {
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    width: 48px;
+    height: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #222;
+}
+.sh-goods-parameters .add-cart {
+    position: relative;
+    padding-left: 10px;
+}
+.sh-shopping-cart {
+    display: block;
+    position: relative;
+    border: none;
+    color: #fff;
+    width: 190px;
+    padding-left: 25px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 14px;
+    background-color: #ff504a;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.sh-shopping-cart i {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 45px;
+    width: 20px;
+    height: 16px;
+    background-position: -72px -309px;
+}
+.tv_shop_zg {
+    padding: 10px 0 5px 30px;
+    background: url(http://www.ugoshop.com/themes/ugo/images/2016/2016_goods/icon_3.png) no-repeat;
+    background-position: 0 6px;
+    color: #222;
+}
+.sh-goods-declaration, .sh-goods-declaration img {
+    width: 1000px;
+    height: 80px;
+    overflow: hidden;
+}
+.sh-goods-declaration {
+    margin-bottom: 20px;
+}
+.sh-goods-declaration, .sh-goods-declaration img {
+    width: 1000px;
+    height: 80px;
+    overflow: hidden;
+}
+
+
+
+/*商品详情，评论，服务说明部分*/
+.lazy-loading {
+    background: url(http://www.ugoshop.com/themes/ugo/images/2015/2015_public/zwt.jpg) no-repeat 50% 50%;
+    display: block;
+    background-color: #fff;
+    width: 100%;
+}
+.sh-goods-details {
+    position: relative;
+}
+.sh-goods-details .group {
+    float: left;
+    width: 790px;
+    margin-right: 20px;
+}
+.sh-goods-details .group .related {
+    margin-bottom: 20px;
+    width: 788px;
+    border: 1px solid #e8e8e8;
+}
+.sh-goods-details .group .related .tab {
+    height: 43px;
+    border-bottom: 1px solid #e8e8e8;
+    background-color: #f5f5f5;
+    line-height: 43px;
+}
+.sh-goods-details .group .related .tab .tab-select {
+    float: left;
+    width: 480px;
+    margin: 0;
+    padding: 0;
+}
+.sh-goods-details .group .related .tab .tab-select a {
+    display: block;
+    float: left;
+    width: 159px;
+    border-right: 1px solid #e8e8e8;
+    text-align: center;
+    font-size: 14px;
+    color: #222;
+}
+.sh-goods-details .group .related .tab .tab-select a.active {
+    position: relative;
+    background-color: #fff;
+    color: #F70800;
+    font-weight: bold;
+    border-top: 2px solid #F70800;
+    margin-top: -3px;
+    top: 2px;
+}
+.sh-goods-details .group .related .tab .tab-select a span {
+    color: #2766e3;
+}
+/*向下滑动时固定在顶部的div*/
+.sh-goods-details .group .related .tab .ext {
+    display: none;
+    float: right;
+    width: 518px;
+}
+.sh-goods-details .group .related .tab .ext .options {
+    float: left;
+}
+.sh-goods-details .group .related .tab .ext .options span, .sh-goods-details .group .related .tab .ext .ext-cart-info span {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.sh-goods-details .group .related .tab .ext .options span {
+    max-width: 85px;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    margin-left: 15px;
+}
+.sh-goods-details .group .related .tab .ext .options span:first-child {
+    margin-left: 15px;
+}
+.sh-goods-details .group .related .tab .ext .ext-cart-info .price {
+    font-size: 16px;
+    color: #f70800;
+    font-weight: bold;
+    line-height: 42px;
+}
+.sh-goods-details .group .related .tab .ext .ext-cart-info .price i {
+    font-size: 14px;
+}
+.sh-goods-details .group .related .tab .ext .ext-cart-info .sh-shopping-cart {
+    border-radius: 0;
+}
+.sh-goods-details .group .related .tab .ext .ext-cart-info .sh-shopping-cart {
+    border-radius: 0;
+}
+.sh-goods-details .group .related .details, .sh-goods-details .group .related .comment, .sh-goods-details .group .related .service {
+    padding: 50px 0 0 0px;
+    width: 732px;
+    margin: 0 auto;
+}
+.sh-goods-details .group .related h3.title {
+    width: 732px;
+    height: 26px;
+    margin-bottom: 20px;
+}
+.sh-goods-details .group .related .details h3.title {
+    background: url("http://www.ugoshop.com/themes/ugo/images/2016/2016_goods/title-bg.png") 0 0 no-repeat;
+}
+.sh-goods-details .group .related .sh-goods-block {
+    width: 730px;
+    margin: 0 auto;
+}
+.sh-goods-details .group .related .details ul.details-table {
+    width: 728px;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin-bottom: 20px;
+    background-color: #FAFAFA;
+}
+.sh-goods-details .group .related .details ul.details-table li.row {
+    border-bottom: 1px solid #ddd;
+}
+.sh-goods-details .group .related .details ul.details-table li.row .title, .sh-goods-details .group .related .details ul.details-table li.row .details {
+    float: left;
+    padding: 10px 0;
+    margin: 0;
+}
+.sh-goods-details .group .related .details ul.details-table li.row .title {
+    width: 110px;
+    background-color: #FAFAFA;
+    text-align: center;
+    color: #444;
+    font-weight: bold;
+    vertical-align: top;
+}
+.sh-goods-details .group .related .details ul.details-table li.row .title span {
+    display: block;
+    margin: 0 auto;
+    width: 48px;
+    text-align: center;
+}
+.sh-goods-details .group .related .details ul.details-table li.row .text-left span {
+    text-align: left;
+}
+.sh-goods-details .group .related .details ul.details-table li.row .details {
+    padding-left: 20px;
+    border-left: 1px solid #ddd;
+    width: 597px;
+    color: #666;
+    background-color: #fff;
+    line-height: 18px;
+    min-height: 18px;
+    height: auto !important;
+    height: 18px;
+}
+.sh-goods-details .group .related .sh-goods-block {
+    width: 730px;
+    margin: 0 auto;
+}
+.sh-goods-details .group .related .details .pic img {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 730px;
+    height: auto;
+}
+.sh-goods-details .group .related h3.title {
+    width: 732px;
+    height: 26px;
+    margin-bottom: 20px;
+}
+.sh-goods-details .group .related .comment h3.title {
+    background: url("http://www.ugoshop.com/themes/ugo/images/2016/2016_goods/title-bg.png") 0 -30px no-repeat;
+}
+.sh-goods-details .group .related .comment .comment-box {
+    border: 1px solid #e8e8e8;
+    width: 728px;
+}
+.sh-goods-details .group .related .comment .comment-box .inner-header {
+    padding: 0 20px 0 20px;
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 1px solid #e8e8e8;
+    background-color: #f5f5f5;
+}
+.sh-goods-details .group .related .comment .comment-box .inner-header .select-comment {
+    float: left;
+    padding-left: 15px;
+}
+.sh-goods-details .group .related .comment .comment-box .inner-header .select-comment ul li {
+    float: left;
+    margin-right: 44px;
+    cursor: pointer;
+}
+.custom-checkbox, .custom-radio {
+    position: relative;
+}
+.custom-radio input {
+    position: absolute;
+    top: 7px;
+    left: -15px;
+}
+.custom-radio label, .custom-checkbox label {
+    display: block;
+    cursor: pointer;
+}
+.sh-goods-details .group .related .comment .comment-box .inner-header .select-comment ul li label {
+    margin-left: 5px;
+}
+.custom-radio label i {
+    position: absolute;
+    left: -15px;
+    top: 7px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: -68px -221px;
+}
+.custom-radio label.checked i {
+    background-position: -96px -222px;
+}
+.custom-checkbox label span, .custom-radio label span {
+    display: inline-block;
+    text-align: right;
+}
+.sh-goods-details .group .related .comment .comment-box .inner-header .show-pic {
+    float: right;
+}
+.custom-checkbox input {
+    position: absolute;
+    left: -18px;
+    top: 10px;
+}
+.sh-goods-details .group .related .comment .comment-box .comment-box-list {
+    padding: 0px 20px;
+}
+.sh-goods-details .group .related .comment .comment-box .comment-box-list ul.comment-list li {
+    border-top: 1px dotted #e8e8e8;
+    padding: 30px 0;
+}
+.sh-goods-details .group .related .comment .comment-box .comment-box-list ul.comment-list li .descrption {
+    position: relative;
+    width: 350px;
+    margin-right: 70px;
+}
+.sh-goods-details .group .related .comment .comment-box .comment-box-list ul.comment-list li .descrption p.text {
+    margin-bottom: 5px;
+    color: #444;
+    line-height: 20px;
+}
+.sh-goods-details .group .related .comment .comment-box .comment-box-list ul.comment-list li .descrption ul {
+    margin-bottom: 5px;
+}
+.sh-goods-details .group .related .comment .comment-box .comment-box-list ul.comment-list li .descrption .datetime {
+    color: #999;
+}
+.sh-goods-details .group .related .comment .comment-box .comment-box-list ul.comment-list li .attr {
+    width: 120px;
+    margin-right: 40px;
+}
+.sh-goods-details .group .related .comment .comment-box .comment-box-list ul.comment-list li .author {
+    width: 100px;
+}
+.sh-goods-details .group .related .comment .comment-box .comment-box-list ul.comment-list li .author span {
+    display: inline-block;
+    width: 63px;
+    vertical-align: top;
+}
+.sh-goods-details .group .related .comment .comment-box .comment-box-list ul.comment-list li .author i.comment-star {
+    display: block;
+    width: 57px;
+    height: 11px;
+}
+.sh-goods-details .group .related .comment .comment-box .comment-box-list ul.comment-list li .author i.comment-star-5 {
+    background-position: 0 -304px;
+}
+.sh-goods-details .group .related .comment .comment-box .comment-box-list ul.comment-list li .descrption, .sh-goods-details .group .related .comment .comment-box .comment-box-list ul.comment-list li .attr, .sh-goods-details .group .related .comment .comment-box .comment-box-list ul.comment-list li .author {
+    float: left;
+}
+.sh-goods-details .group .related .comment .comment-page {
+    float: right;
+    margin-top: 10px;
+    margin-right: -8px;
+}
+.sh-goods-details .group .related .comment .comment-page span.text, .sh-goods-details .group .related .comment .comment-page a.text {
+    width: 80px;
+}
+
+.sh-goods-details .group .related .comment .comment-page span, .sh-goods-details .group .related .comment .comment-page a {
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    color: #666;
+}
+.sh-goods-details .group .related .comment .comment-page span .code-r, .sh-goods-details .group .related .comment .comment-page a .code-r {
+    margin-right: 5px;
+}
+.sh-goods-details .group .related .comment .comment-page a:hover {
+    border-color: #FF504A;
+}
+.sh-goods-details .group .related .comment .comment-page a.current, .sh-goods-details .group .related .comment .comment-page a:active {
+    background-color: #FF504A;
+    border-color: #FF504A;
+    color: #fff;
+}
+.sh-goods-details .group .related .service h3.title {
+    background: url("http://www.ugoshop.com/themes/ugo/images/2016/2016_goods/title-bg.png") 0 -60px no-repeat;
+}
+.sh-goods-details .group .related .service .seo {
+    padding: 40px 0;
+    border-top: 1px dotted #e8e8e8;
+}
+.sh-goods-similar {
+    margin-bottom: 20px;
+    border: 1px solid #e8e8e8;
+}
+.sh-goods-similar.similar-footer {
+    width: 788px;
+}
+.sh-goods-similar .inner-header {
+    margin-bottom: 25px;
+    padding-left: 20px;
+    border-bottom: 1px solid #e8e8e8;
+    height: 33px;
+    font-size: 14px;
+    background-color: #f5f5f5;
+}
+.sh-goods-similar .inner-header .icon-vl {
+    display: inline-block;
+    margin-right: 5px;
+    width: 3px;
+    padding-top: 5px;
+}
+.sh-goods-similar .inner-header .icon-vl i {
+    display: block;
+    margin-top: 7px;
+    width: 3px;
+    height: 12px;
+    background-color: #f70800;
+    vertical-align: top;
+}
+.sh-goods-similar .inner-header strong {
+    padding-top: 8px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sh-goods-similar ul {
+    margin-bottom: 30px;
+}
+.sh-goods-similar ul li {
+    float: left;
+    width: 170px;
+}
+.sh-goods-similar.similar-footer ul li {
+    margin-left: 2.73%;
+}
+.sh-goods-similar ul li a {
+    display: block;
+    width: 170px;
+}
+.sh-goods-similar ul li a img {
+    display: block;
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+}
+.sh-goods-similar ul li a span {
+    display: block;
+}
+.sh-goods-similar ul li a span.title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 32px;
+    overflow: hidden;
+    color: #222;
+}
+.sh-goods-similar ul li a span.price span, .sh-goods-similar ul li a span.price s {
+    display: inline-block;
+}
+.sh-goods-similar ul li a span.price span {
+    margin-right: 10px;
+    color: #f70800;
+    font-size: 16px;
+    font-family: Arial;
+}
+.sh-goods-similar ul li a span.price span i {
+    font-family: "Microsoft YaHei" !important;
+    font-size: 14px;
+}
+.sh-goods-details .watching {
+    float: right;
+    width: 188px;
+    border-top: 2px solid #F70800;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.sh-goods-details .watching h3.title {
+    padding: 12px 20px 12px 20px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.sh-goods-details .watching ul {
+    width: 148px;
+    padding: 0 20px;
+}
+.sh-goods-details .watching ul li {
+    padding: 20px 0;
+    border-top: 1px dotted #f6f6f6;
+}
+.sh-goods-details .watching ul li:first-child {
+     border-top: none;
+}
+.sh-goods-details .watching ul li a {
+    display: block;
+    width: 150px;
+}
+.sh-goods-details .watching ul li a img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+.sh-goods-details .watching ul li a span {
+    display: block;
+}
+.sh-goods-details .watching ul li a span.title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 32px;
+    overflow: hidden;
+    color: #222;
+}
+.sh-goods-details .watching ul li a span.price span, .sh-goods-details .watching ul li a span.price s {
+    display: inline-block;
+}
+.sh-goods-details .watching ul li a span.price span {
+    margin-right: 10px;
+    color: #f70800;
+    font-size: 16px;
+    font-family: Arial;
+}
+.sh-goods-details .watching ul li a span.price span i {
+    font-family: "Microsoft YaHei" !important;
+    font-size: 14px;;
+}
+.fixed-bar {
+    position: fixed;
+    top: 0;
+    left: 221px;
+    right: 0;
+    width: 998px;
+    z-index: 100;
+}
+.sh-goods-details .group .related .tab .ext .ext-cart-info {
+    float: right;
+}
+/*放大镜的样式*/
+.sh-goods-gallery .sale-out {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 160px;
+    right: 140px;
+    background-color: #CCCCCC;
+    opacity: 0.3;
+    display: none;
+}
+.sh-goods-gallery .preview .zoomdiv {
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    display: none;
+    margin-top: -1px;
+    margin-left: -50px;
+    width: 398px;
+    height: 398px;
+    background: #ffffff;
+    border-top: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    text-align: center;
+    overflow: hidden;
+    z-index: 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
